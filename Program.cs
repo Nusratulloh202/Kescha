@@ -1,4 +1,22 @@
 ﻿using System;
-System.Console.WriteLine(12+213);
-System.Console.WriteLine("ibewfqkjcd");
-System.Console.WriteLine("ajsbyoics"+" qubevfh j");
+char smolla='a';
+char capitalA='A';
+System.Console.WriteLine((int)smolla);
+System.Console.WriteLine((int)capitalA);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
