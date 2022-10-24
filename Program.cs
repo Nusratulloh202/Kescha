@@ -1,6 +1,12 @@
 ﻿using System;
 System.Console.Write("Hurmatli abanent ismingizni kiriting >>> ");
-string fullName=Console.ReadLine();
+string? fullName=Console.ReadLine();
+string password ="";
+do
+{
+    System.Console.WriteLine("Saytga kirish kodingizni kiriting >>> ");
+    password = Console.ReadLine();
+}while (password!="AC1929891");
 System.Console.Write($"Assalomu alaykum {fullName} yoshingizni kiriting >>> ");
 int age =Convert.ToInt32(Console.ReadLine());
 string ageChek=
